@@ -11,7 +11,7 @@ public class PrimoUtilities {
             return false;
         }
         for (Integer x = 2; x < i / 2; x++) {
-            if (i % x == 0) //hola
+            if (i % x == 0)
                 return false;
         }
         logger.info("Primo encontrado: " + i);
