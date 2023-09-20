@@ -17,7 +17,7 @@ public class Main {
             Integer init = sc.nextInt();
 
             if (init == 0) {
-                System.exit(0);
+                System.exit(0); //hola
 
             }else{
             System.out.println("Escribe el final: ");
